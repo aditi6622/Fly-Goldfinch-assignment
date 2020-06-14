@@ -1,0 +1,186 @@
+
+          
+    * { 
+        box-sizing: border-box; 
+    } 
+          
+    body { 
+       height: 100%;
+       width: 100%;
+     
+       margin: 0;
+       background-color: #CECBB8;
+}
+    
+     p::selection {
+      color: red;
+      background-color: yellow;
+     }
+    
+    /* .rightNavigation{
+        padding: 20px; 
+        float: right;
+        width:200px;
+        display:inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .leftNavigation{
+        padding: 20px; 
+        float: left;
+        width:200px;
+        width:200px;
+        display:inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    } */
+    /* Float columns */
+    .clickCounter { 
+
+        border-radius: 6px;
+    margin: auto;
+    border: 2px solid #fff;
+    padding: 2rem;
+    background-color: #8ABFC8;
+    color: white;
+    text-align: center;
+    }  
+    #time{
+        width: 50%;
+          border: 3px blue;
+        padding: 10px; 
+        margin: auto;
+        text-align: center; 
+        background-color: gray; 
+        color: white; 
+    }    
+    .row { 
+        margin: 0 -5px; 
+    } 
+      
+    .row:after { 
+        content: ""; 
+        display: table; 
+    } 
+      
+    /* Style the cards */
+    .card { 
+        padding: 10px; 
+        text-align: center; 
+        background-color: gray; 
+        color: white; 
+        } 
+          
+    .card:hover { 
+        transform: scale(1.1); 
+        background-color: black; 
+        transition-duration: 2s; 
+        color: white; 
+    } 
+          
+    .fa { 
+        font-size: 50px; 
+    } 
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 6rem 0px;
+        background-color: #CECBB8;
+    }
+    
+    .heading {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .heading h1 {
+        font-weight: 700;
+        text-transform: capitalize;
+        color:#fff;
+    }
+    
+    
+    .clickCounter p {
+        font-size: 19px;
+        font-weight: 600;
+    }
+    .clickCounter button, .rightNavigation button, .nav-butn button, .load-div button, button {
+        padding: 0.6rem 1.6rem;
+        background-color: #fff;
+        border: 1px solid #fff;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    
+    button.incre {margin-right: 5px;}
+    
+    button.decre {
+        margin-left: 1p;
+        margin-left: 4px;
+    }
+    
+    hr {
+        margin-top: 2rem!important; 
+        margin-bottom: 2rem!important;
+    }
+    
+    .clickCounter label {
+        font-weight: 600;
+    }
+    
+    .clickCounter span {
+        text-decoration: underline;
+        margin-left: 7px;
+    }
+    
+    
+    .rightNavigation {
+        text-align: right;
+        margin-top: 1rem;
+    }
+    button.right-btn {
+        float: right;
+    }
+    .load-div{
+        text-align: center;
+    }
+    #loading {
+        margin: 2rem 0 1rem 0;
+    }
+    div#table {
+        margin-top: 3rem;
+    }
+    
+    #table table {
+        width: 58%;
+    }
+    
+    #table th {padding: 1rem;text-align: center;}
+    
+    #table td {
+        padding: 0.6rem;
+        text-align: center;
+    }
+    .select-box select {
+        padding: 0.8rem 1.6rem;
+        background-color: #fff;
+        border: 1px solid #fff;
+    }
+    
+    .select-box input {
+        padding: 0.6rem 1.6rem;
+    }
+    
+    .select-box {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    div#output {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
